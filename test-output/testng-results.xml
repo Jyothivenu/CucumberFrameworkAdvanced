@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-25T09:15:10Z" name="Default suite" finished-at="2018-10-25T09:15:31Z" duration-ms="21399">
+    <groups>
+      <group name="cucumber">
+        <method signature="runnerClass.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.common.Runner.runnerClass@34f7cfd9]" name="feature" class="org.common.Runner.runnerClass"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2018-10-25T09:15:10Z" name="Default test" finished-at="2018-10-25T09:15:31Z" duration-ms="21399">
+      <class name="org.common.Runner.runnerClass">
+        <test-method is-config="true" signature="initBuild()[pri:0, instance:org.common.Runner.runnerClass@34f7cfd9]" started-at="2018-10-25T14:45:06Z" name="initBuild" finished-at="2018-10-25T14:45:10Z" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBuild -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org.common.Runner.runnerClass@34f7cfd9]" started-at="2018-10-25T14:45:10Z" name="setUpClass" finished-at="2018-10-25T14:45:10Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.common.Runner.runnerClass@34f7cfd9]" started-at="2018-10-25T14:45:10Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-25T14:45:30Z" duration-ms="20025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login to Amazon website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.common.Runner.runnerClass@34f7cfd9]" started-at="2018-10-25T14:45:30Z" name="tearDownClass" finished-at="2018-10-25T14:45:31Z" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.common.Runner.runnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
